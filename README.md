@@ -22,6 +22,7 @@ Having these simple steps done, we can now start working with CVAT and setting u
 ## Quick Start
 
 To make a quick start, it is helpful to first know a little bit about the important parts of the source code. In the following we only talk about parts that you might encounter while using CVAT in application. We will exemplarily show everything for the Segment Anything model as the definition and usage of other models is almost identical:
+
     cvat
     ├── ...
     ├── serverless                          # Directory for running local models
