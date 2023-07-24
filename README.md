@@ -1,10 +1,11 @@
 # Computer Vision Annotation Tol (CVAT)
 
+This repository holds a guide and two small bash scripts that should get CVAT running without going much into detail, so you can start labeling your data as quick as possible. Further tricks, additions, etc. are very much welcomed.
 
 ## Installation Guide
 
 This guide aims at setting up CVAT from the GitHub repository: https://github.com/opencv/cvat <br/>
-We want to set up CVAT such that we can run the models locally on our own machines. This guide tries to only focus on the important parts for our use-case, such that CVAT can easily be run without looking under the hood. Further additions or tips and tricks are very welcomed to be added. For a more detailed explanations, we recommend the docs: https://opencv.github.io/cvat/docs/ or the product tour: https://www.youtube.com/playlist?list=PL0to7Ng4Puua37NJVMIShl_pzqJTigFzg
+We want to set up CVAT such that we can run the models locally on our own machines. This guide tries to only focus on the important parts for our use-case, such that CVAT can easily be run without looking under the hood.  For a more detailed explanations, we recommend the docs: https://opencv.github.io/cvat/docs/ or the product tour: https://www.youtube.com/playlist?list=PL0to7Ng4Puua37NJVMIShl_pzqJTigFzg
 
 1. Docker Setup
 Since everything is run within docker containers, we initially need to install docker. As this highly depends on the system you are running, we refer to the docker documentations for an installation guide: https://docs.docker.com/engine/install/ubuntu/
@@ -67,5 +68,5 @@ To get started within the CVAT web API, please read the next section.
 Now that we know, how to get our backend properly set up, we take a look at the web API which is our main interface.
 
 ## Tricks'n'Tweaks
-Here you find some tricks and tweaks that we found helpful while working with CVAT
+Here you find some tricks and tweaks that we found helpful while working with CVAT.
 
