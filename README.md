@@ -52,7 +52,7 @@ A successful build finished with the following lines:
  NAMESPACE | NAME                           | PROJECT | STATE | REPLICAS | NODE PORT 
  nuclio    | pth-facebookresearch-sam-vit-h | cvat    | ready | 1/1      | 32768
 ```
-You can also check the correct install by using `docker ps` and check fir the just created container.
+You can also verify your installation with `docker ps` and check for the just created container.
 
 ### Annotate your Data
 After setting up our models, we can now get started with labeling. For easy use, we provide two small scripts that start and stop all CVAT required docker containers and additionally all model containers for local deployment. <br/>
