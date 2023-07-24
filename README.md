@@ -7,15 +7,15 @@ This repository holds a guide and two small bash scripts that should get CVAT ru
 This guide aims at setting up CVAT from the GitHub repository: https://github.com/opencv/cvat <br/>
 We want to set up CVAT such that we can run the models locally on our own machines. This guide tries to only focus on the important parts for our use-case, such that CVAT can easily be run without looking under the hood.  For a more detailed explanations, we recommend the docs: https://opencv.github.io/cvat/docs/ or the product tour: https://www.youtube.com/playlist?list=PL0to7Ng4Puua37NJVMIShl_pzqJTigFzg
 
-1. Docker Setup
+1. Docker Setup <br/>
 Since everything is run within docker containers, we initially need to install docker. As this highly depends on the system you are running, we refer to the docker documentations for an installation guide: https://docs.docker.com/engine/install/ubuntu/
 
-2. Nuclio Setup
+2. Nuclio Setup<br/>
 The backend used by CVAT to manage and communicate with the local server is Nuclio: https://github.com/nuclio/nuclio <br/>
 To install the latest version of Nuclio, just run: `cd /bin && sudo curl -s https://api.github.com/repos/nuclio/nuclio/releases/latest | grep -i "browser_download_url.*nuctl.*$(uname)" |  c
 ut -d : -f 2,3 | tr -d \" | sudo wget -O nuctl -qi - && sudo chmod +x nuctl` <br/>
 
-3. CVAT Setup
+3. CVAT Setup<br/>
 Finally, we will clone the CVAT repository: `git clone git@github.com:opencv/cvat.git` <br/>
 Having these simple steps done, we can now start working with CVAT and setting up our work environment.
 
